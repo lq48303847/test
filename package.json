@@ -1,0 +1,73 @@
+{
+  "private": false,
+  "name": "@liuqiang_90/test",
+  "version": "1.0.1",
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "release": "npm run build && npm publish",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
+  "sideEffects": [
+    "dist/*",
+    "es/**/style/*",
+    "lib/**/style/*",
+    "*.less"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "peerDependencies": {
+    "react": ">=16.13.0",
+    "react-dom": ">=16.13.0"
+  },
+  "dependencies": {
+    "antd": "^4.6.5"
+  },
+  "devDependencies": {
+    "react": ">=16.13.0",
+    "react-dom": ">=16.13.0",
+    "@umijs/test": "^3.0.5",
+    "dumi": "^1.0.10",
+    "father-build": "^1.17.2",
+    "gh-pages": "^3.0.0",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "yorkie": "^2.0.0"
+  },
+  "description": "测试公共组件库",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lq48303847/dumi.git"
+  },
+  "author": "liuqiang",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/lq48303847/dumi/issues"
+  },
+  "homepage": "https://github.com/lq48303847/dumi#readme"
+}
