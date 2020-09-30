@@ -24,15 +24,15 @@ export default () => <Button type="primary">我是 antd 的按钮</Button>;
 
 ## TS 转 JS
 
-<code src="./demo/typescript.tsx" />
+<code src="./demos/typescript.tsx" />
 
 ## 多文件依赖
 
-<code src="./demo/modal.jsx" />
+<code src="./demos/modal.jsx" />
 
 ## 控制 Demo 预览器的功能按钮
 
-<code src="./demo/show-preview.tsx" hideActions='["CSB", "EXTERNAL"]' />
+<code src="./demos/show-preview.tsx" hideActions='["CSB", "EXTERNAL"]' />
 
 ```jsx
 /**

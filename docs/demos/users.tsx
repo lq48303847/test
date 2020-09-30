@@ -31,7 +31,8 @@ const USERS = [
   {
     name: 'Remax',
     link: 'https://remaxjs.org',
-    logo: 'https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ',
+    logo:
+      'https://gw.alipayobjects.com/mdn/rms_b5fcc5/afts/img/A*1NHAQYduQiQAAAAAAAAAAABkARQnAQ',
   },
   {
     name: 'LightProxy',
@@ -48,7 +49,15 @@ const USERS = [
 
 export default () => {
   return (
-    <ul style={{ display: 'flex', flexWrap: 'wrap', margin: 0, padding: 0, listStyle: 'none' }}>
+    <ul
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        margin: 0,
+        padding: 0,
+        listStyle: 'none',
+      }}
+    >
       {USERS.map((user, i) => (
         <li
           key={user.link}

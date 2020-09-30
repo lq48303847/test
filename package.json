@@ -62,12 +62,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lq48303847/dumi.git"
+    "url": "git+https://github.com/lq48303847/test.git"
   },
   "author": "liuqiang",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/lq48303847/dumi/issues"
+    "url": "https://github.com/lq48303847/test/issues"
   },
-  "homepage": "https://github.com/lq48303847/dumi#readme"
+  "homepage": "https://github.com/lq48303847/test#readme"
 }
