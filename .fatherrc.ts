@@ -7,10 +7,4 @@ export default {
     minify: true,
     lazy: true,
   },
-  // umd: {
-  //   sourcemap: true,
-  // },
-  extraBabelPlugins: [
-
-  ]
 };
