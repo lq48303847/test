@@ -1,4 +1,3 @@
-import React from "react";
-import { Select } from "antd";
-import "./index.less";
+import React from 'react';
+import { Select } from 'antd';
 export default Select;

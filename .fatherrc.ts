@@ -4,7 +4,7 @@ export default {
   },
   cjs: {
     type: 'babel',
-    minify: true,
-    lazy: true,
+    // minify: true,
+    // lazy: true,
   },
 };

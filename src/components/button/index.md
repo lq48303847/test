@@ -8,5 +8,5 @@ title: 按钮Demo
 import React from 'react';
 import { Button } from '@liuqiang_90/test';
 
-export default () => <Button onClick={()=>alert('onClick')}>default</Button>;
+export default () => <Button onClick={() => alert('onClick')}>default</Button>;
 ```

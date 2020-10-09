@@ -7,7 +7,12 @@ interface ButtonProps {
   disabled?: boolean;
 }
 const prefixCls = 'dumi-oni-btn';
-const Button: FC<ButtonProps> = ({ children, onClick, type = 'default', disabled }) => {
+const Button: FC<ButtonProps> = ({
+  children,
+  onClick,
+  type = 'default',
+  disabled,
+}) => {
   const className = `${prefixCls} ${prefixCls}-button ${prefixCls}-${type}`;
   return (
     <button className={className} onClick={onClick} disabled={disabled}>

@@ -13,8 +13,8 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "main": "lib/index.ts",
-  "module": "es/index.ts",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "files": [
     "dist",
     "es",

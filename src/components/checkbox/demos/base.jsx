@@ -17,10 +17,18 @@ const optionsWithDisabled = [
 ];
 export default () => (
   <>
-    <Checkbox.Group options={plainOptions} defaultValue={['Apple']} onChange={onChange} />
+    <Checkbox.Group
+      options={plainOptions}
+      defaultValue={['Apple']}
+      onChange={onChange}
+    />
     <br />
     <br />
-    <Checkbox.Group options={options} defaultValue={['Pear']} onChange={onChange} />
+    <Checkbox.Group
+      options={options}
+      defaultValue={['Pear']}
+      onChange={onChange}
+    />
     <br />
     <br />
     <Checkbox.Group

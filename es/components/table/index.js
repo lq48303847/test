@@ -1,4 +1,3 @@
-import React from "react";
-import { Table } from "antd";
-import "./index.less";
+import React from 'react';
+import { Table } from 'antd';
 export default Table;
