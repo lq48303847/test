@@ -4,7 +4,7 @@ title: atnd Checkbox
 
 <code src="./demos/base.jsx" />
 
-## Select
+## CheckBox参数
 
 | 参数     | 描述               |
 | -------- | ------------------ |
