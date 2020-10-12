@@ -16,12 +16,6 @@ export default defineConfig({
         libraryDirectory: 'es',
         style: true,
       },
-      // {
-      //   libraryName: '@liuqiang_90/test',
-      //   libraryDirectory: 'es',
-      //   style: true,
-      // },
-      // 'antd',
     ],
   ],
 });
