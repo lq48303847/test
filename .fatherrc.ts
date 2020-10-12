@@ -4,7 +4,25 @@ export default {
   },
   cjs: {
     type: 'babel',
-    // minify: true,
-    // lazy: true,
   },
+  extraBabelPlugins: [
+    [
+      'module-resolver',
+      {
+        root: ['./'],
+        alias: {
+          '@utils': './src/utils',
+          '@components': './src/components',
+        },
+      },
+    ],
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
+  ],
 };

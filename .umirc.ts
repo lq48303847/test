@@ -1,4 +1,5 @@
 import { defineConfig } from 'dumi';
+import { resolve } from 'path';
 
 export default defineConfig({
   title: '中台组件库',
@@ -18,4 +19,8 @@ export default defineConfig({
       },
     ],
   ],
+  alias: {
+    '@utils': resolve(__dirname, './src/utils'),
+    '@components': resolve(__dirname, './src/components'),
+  },
 });

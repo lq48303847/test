@@ -1,5 +1,4 @@
 import React from 'react';
-import { Layout } from 'antd';
 export default (function() {
   return /*#__PURE__*/ React.createElement(
     'div',

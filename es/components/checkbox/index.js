@@ -1,4 +1,5 @@
+import 'antd/es/checkbox/style';
+import _Checkbox from 'antd/es/checkbox';
 import React from 'react';
-import { Checkbox } from 'antd';
 import './index.less';
-export default Checkbox;
+export default _Checkbox;

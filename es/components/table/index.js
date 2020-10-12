@@ -1,3 +1,4 @@
+import 'antd/es/table/style';
+import _Table from 'antd/es/table';
 import React from 'react';
-import { Table } from 'antd';
-export default Table;
+export default _Table;
