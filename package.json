@@ -42,9 +42,13 @@
     "react-dom": ">=16.13.0"
   },
   "dependencies": {
-    "antd": "^4.6.5"
+    "antd": "^4.6.5",
+    "lodash": "^4.17.20",
+    "shallowequal": "^1.1.0"
   },
   "devDependencies": {
+    "@types/shallowequal": "^1.1.1",
+    "@types/lodash": "^4.14.162",
     "babel-plugin-module-resolver": "^4.0.0",
     "@umijs/test": "^3.0.5",
     "dumi": "^1.0.10",
