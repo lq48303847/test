@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@liuqiang_90/test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -73,5 +73,11 @@
   "bugs": {
     "url": "https://github.com/lq48303847/test/issues"
   },
-  "homepage": "https://github.com/lq48303847/test#readme"
+  "homepage": "https://github.com/lq48303847/test#readme",
+  "publishConfig" : {
+    "registry" : "http://maven.oss.yunsom.cn/repository/npm-snapshots/",
+    "username": "admin",
+    "password": "admin123",
+    "emial": "admin@example.org"
+  }
 }
