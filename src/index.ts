@@ -4,3 +4,4 @@ export { default as DatePicker } from './components/date-picker';
 export { default as Select } from './components/select';
 export { default as Table } from './components/table';
 export { default as Checkbox } from './components/checkbox';
+export { default as Flow } from './flow';

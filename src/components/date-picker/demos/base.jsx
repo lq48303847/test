@@ -4,7 +4,7 @@
  */
 import React, { useCallback } from 'react';
 import { Space } from 'antd';
-import { DatePicker } from 'mid';
+import { DatePicker } from '@liuqiang_90/test';
 
 export default () => {
   const onChange = useCallback(date => {

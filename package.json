@@ -44,6 +44,7 @@
   "dependencies": {
     "antd": "^4.6.5",
     "lodash": "^4.17.20",
+    "mxgraph": "^4.2.2",
     "shallowequal": "^1.1.0"
   },
   "devDependencies": {
@@ -74,8 +75,8 @@
     "url": "https://github.com/lq48303847/test/issues"
   },
   "homepage": "https://github.com/lq48303847/test#readme",
-  "publishConfig" : {
-    "registry" : "http://maven.oss.yunsom.cn/repository/npm-snapshots/",
+  "publishConfig": {
+    "registry": "http://maven.oss.yunsom.cn/repository/npm-snapshots/",
     "username": "admin",
     "password": "admin123",
     "emial": "admin@example.org"
