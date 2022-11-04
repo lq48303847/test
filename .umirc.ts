@@ -6,7 +6,7 @@ export default defineConfig({
   favicon: '/assets/favicon.ico',
   logo: '/assets/favicon.png',
   // 部署到Github上
-  base: '/test',
+  base: '/',
   publicPath: './',
   outputPath: 'docs-dist',
   // more config: https://d.umijs.org/config
